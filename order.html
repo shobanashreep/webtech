@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShopEase - Order Form</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="products.html">Products</a> |
+        <a href="order.html">Order Form</a> |
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <h1>Place Your Order</h1>
+
+    <form action="#" method="post">
+        <label for="name">Customer Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="product">Product:</label><br>
+        <input type="text" id="product" name="product" required><br><br>
+
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <label for="payment">Payment Method:</label><br>
+        <select id="payment" name="payment">
+            <option value="Card">Card</option>
+            <option value="Cash on Delivery">Cash on Delivery</option>
+        </select><br><br>
+
+        <input type="checkbox" id="policies" name="policies" required>
+        <label for="policies">I agree to the store policies.</label><br><br>
+
+        <input type="submit" value="Submit Order">
+    </form>
+</body>
+</html>
