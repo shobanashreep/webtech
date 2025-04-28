@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Tales - Contact</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="destinations.html">Destinations</a> |
+        <a href="itinerary.html">Itinerary</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="media.html">Media</a>
+    </nav>
+
+    <h1>Contact Me</h1>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+        <label for="reason">Reason for Contact:</label><br>
+        <select id="reason" name="reason">
+            <option value="Inquiry">Inquiry</option>
+            <option value="Collaboration">Collaboration</option>
+            <option value="Feedback">Feedback</option>
+        </select><br><br>
+
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to Newsletter</label><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+</body>
+</html>
